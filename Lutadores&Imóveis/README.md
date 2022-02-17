@@ -1,10 +1,11 @@
-# 3°TIB - IFBA Campus Camaçari - 2022                   
+# 3°TIB - IFBA Campus Camaçari - 2022
+**Disciplina LPII - _Prof Fábio_**
 **Alunos:**
 > - _Shaiane Nascimento,_
 > - _Pedro Lucas,_    
 > - _Mayra Silva,_
 > - _Víctor Tigre._
-**Disciplina LPII - _Prof Fábio_**
+
 *** 
 ## Exercício I
 1. Crie a classe `Lutador` com as características: *nome, nacionalidade, idade, altura, peso, vitorias, derrotas e empates*. A classe `Lutador` terá os seguintes métodos:
