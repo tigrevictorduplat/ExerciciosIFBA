@@ -4,3 +4,4 @@
  Através desse repositório, poderei acompanhar os exercícios que resolvi e, até, melhorá-los futuramente!
 ***
 ![Selo OctoTigre](https://avatars.githubusercontent.com/u/98099656?v=4)
+### Selo OctoTigre de Qualidade :octopus: + :tiger: 
