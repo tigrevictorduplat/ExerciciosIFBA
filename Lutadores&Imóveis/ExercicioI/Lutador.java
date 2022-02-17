@@ -1,4 +1,4 @@
-package ListaII.ExercicioI;
+package ExercicioI;
 import javax.swing.JOptionPane;
 public class Lutador {
     //Atributos

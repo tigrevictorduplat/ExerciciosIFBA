@@ -1,4 +1,4 @@
-                    3°TIB - IFBA Campus Camaçari 
+                    3°TIB - IFBA Campus Camaçari - 2022                    
 Alunos:
     Shaiane Nascimento,
     Pedro Lucas,    
@@ -18,3 +18,8 @@ ________________________________________________________________________________
     - Peça para o usuário digitar 1 para um novo imóvel ou 2 para um imóvel velho.
     - Conforme a definição do usuário, solicite o endereço, o preço e o adicional/desconto e instancie a classe de acordo com a escolha do tipo de imóvel.
     - Imprima o valor final do imóvel.
+
+______________________________________________________________________________________________________
+OBS:
+Muitos que lerem vão perceber que o exercício pediu apenas para somar ou subtrair o preço a depender da categoria. Mas, buscando diferenciar a lógica entre um Imóvel Novo e Antigo eu apliquei o decréscimo na forma de porcentagem.
+A lógica que eu segui é que talvez Imóveis Velhos pudessem ter uma taxa fixa (a dependar da Corretora) de desvalorização. Enquanto isso, a valorização é extremamente variável, seja por estar ou não mobiliado, por estar ou não bem localizado, ou quaisquer outras variavéis dentro disso.   

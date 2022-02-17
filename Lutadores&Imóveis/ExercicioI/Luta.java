@@ -1,8 +1,6 @@
-package ListaII.ExercicioI;
+package ExercicioI;
 import javax.swing.JOptionPane;
-//Alunos
-//
-//
+
 public class Luta {
     //Atributos
     private Lutador lutadorDesafiante;
@@ -38,7 +36,7 @@ public class Luta {
         this.setDataLuta(JOptionPane.showInputDialog(null, "Qual será a data da luta?"));
     }
      public void Lutar(Lutador desafiado, Lutador desafiante){
-        JOptionPane.showMessageDialog(null, "É chegada a hora do combateeee, vem chegando nosso desafiante da noite...");
+        JOptionPane.showMessageDialog(null, "Finalmente! "+this.getDataLuta() + ".Após uma longa espera, é chegada a hora do combateeee e vem chegando aí o nosso desafiante da noite...");
         this.lutadorDesafiante.apresentarLutador();
         JOptionPane.showMessageDialog(null, "É, meus queridos espectadores, parece que "+ this.lutadorDesafiado.getNomeLutador() +" está em maus bocados... mas mesmo assim nosso desafiado vem confiante!!");
         this.lutadorDesafiado.apresentarLutador();

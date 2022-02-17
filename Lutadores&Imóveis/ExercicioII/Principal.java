@@ -1,4 +1,4 @@
-package ListaII.ExercicioII;
+package ExercicioII;
 import javax.swing.JOptionPane;
 
 public class Principal {

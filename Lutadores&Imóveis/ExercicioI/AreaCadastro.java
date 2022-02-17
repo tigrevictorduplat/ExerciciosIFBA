@@ -1,10 +1,11 @@
-package ListaII.ExercicioI;
+package ExercicioI;
 
 import javax.swing.JOptionPane;
 
 public class AreaCadastro {
-    
+    // Método usado para cadastrar novos lutadores
     public Lutador cadastrarLutador(Lutador novoLutador) {
+        
         JOptionPane.showMessageDialog(null, "Vamos começar o Cadastro", "Hora do Cadastro!",1);
         novoLutador.setNomeLutador(JOptionPane.showInputDialog(null, "Digite aqui:", "Nome do Lutador",1));
         novoLutador.setIdadeLutador(Integer.parseInt(JOptionPane.showInputDialog(null, "Digite aqui:", "Idade do Lutador",1)));
@@ -20,6 +21,7 @@ public class AreaCadastro {
         
         return novoLutador;
     }
+    //Uma 'factory' feita para instanciar lutadores vazios 
     public static Lutador factoryLutador(){
         Lutador novoLutador = new Lutador();
         return novoLutador;
